@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    margin-top: 100px;
+    color: aliceblue;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    flex-direction: column;
+    
+}
+
+label{
+    display: block;
+    font-family: "Kdam Thmor Pro", sans-serif ;
+    color: white;
+}
+input{
+    width: 300px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    color: white;
+    border: transparent;
+    border-bottom: solid 3px white;
+    transition: 0.5s;
+    outline: none;
+    background-color: black;
+
+}
+
+input:hover{
+    border-bottom: solid #d21617;
+    transform: scale(1.05)
+}
+
+button{
+    display:inline-block;
+    background-color: #d21617;
+    font-size: 17px;
+    font-family:"Kdam Thmor Pro", sans-serif ;
+    color: black;
+    width: 10%;
+    height: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    cursor:pointer;
+    transition: 1s;
+    margin-top: 15px;
+    margin-left:2% ;
+}
+
+#bt:hover{
+    color: white;
+}
+#bt:active{
+    transform: translateY(10px)
+}
